@@ -9,7 +9,7 @@ username = input("username:")
 with open('d:\Black_list.txt','r') as r:
     data = r.readlines()
     for i in data:
-        if i.strip('\n') == username:   #i.strip('\n')，去除I数值后面的\n格式
+        if i.strip('\n') == username:   #i.strip('\n')，去除i数值后面的\n格式
             print("your username is block!!,Please retry again!")
             break
             #sys.exit(0)
